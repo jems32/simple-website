@@ -1,0 +1,119 @@
+a {
+  text-decoration: none;
+  background-color: #456;
+  color: aliceblue;
+  display: inline-block;
+  padding: 10px;
+}
+a:hover {
+  background-color: aliceblue;
+  color: green;
+}
+#active {
+  background-color: darkorange;
+}
+footer {
+  text-align: center;
+  background-color: violet;
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.social-icons a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  transition: 0.3s;
+}
+header {
+  background-color: antiquewhite;
+  color: #000;
+}
+#sw {
+  color: red;
+  margin: 2rem 5rem;
+}
+main p {
+  font-size: 0.8rem;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  margin: 2rem;
+}
+.develop {
+  margin: 2rem 15rem;
+  background-color: azure;
+}
+.helping {
+  margin: 2rem 15rem;
+  background-color: aquamarine;
+}
+.problemsolver {
+  margin: 2rem 15rem;
+  background-color: beige;
+}
+.contact {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.wd {
+  background-color: #007bff;
+  margin: 2rem 5rem;
+}
